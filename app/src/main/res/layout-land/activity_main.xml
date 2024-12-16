@@ -24,22 +24,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/imgPlay"
+        app:layout_constraintEnd_toStartOf="@+id/imgPlay"
         app:layout_constraintStart_toEndOf="@+id/lsvSongList"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/imgPlay" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imgStop"
+        app:layout_constraintTop_toTopOf="@+id/imgStop"
         app:srcCompat="@drawable/ic_play" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imgStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -49,7 +49,7 @@
         app:srcCompat="@drawable/ic_stop" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgDrum"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="30dp"
@@ -61,25 +61,25 @@
         app:srcCompat="@drawable/drum_img" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imgLeftCymbal"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imgDrum"
         app:srcCompat="@drawable/left_cymbal" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imgRightCymbal"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.955"
         app:layout_constraintStart_toStartOf="@+id/lsvSongList"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imgDrum"
         app:srcCompat="@drawable/right_cymbal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
